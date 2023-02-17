@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * main-program entry point.
  *
