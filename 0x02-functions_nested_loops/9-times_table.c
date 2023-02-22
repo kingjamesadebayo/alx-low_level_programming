@@ -18,8 +18,8 @@ void times_table(void)
 			_putchar(k + '0');
 		}
 		else if
-			(k >= 10);
-		{
+			(k >= 10)
+		{i
 			_putchar(',');
 			_putchar(' ');
 			_Putchar((k / 10) + '0');
