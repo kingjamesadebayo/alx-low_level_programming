@@ -20,7 +20,7 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
-			_Putchar((k / 10) + '0');
+			Putchar((k / 10) + '0');
 			_putchar((k % 10) + '0');
 		}
 	}
