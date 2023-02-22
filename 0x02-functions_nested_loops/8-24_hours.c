@@ -4,7 +4,7 @@
  *  jack_bauer - prints evrey minute of the day of jack bauer
  *  starting from 00:00 to 23:59
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int i, j;
 
