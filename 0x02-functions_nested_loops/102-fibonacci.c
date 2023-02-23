@@ -10,7 +10,12 @@ int main(void)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
+<<<<<<< HEAD
 	for (count = 0; count < 50; count++){
+=======
+	for (count = 0; count < 50; count++)
+	{
+>>>>>>> f9c881cbd6ba6c081648d3cefd30176016ded90d
 		sum = fib1 + fib2;
 		printf("%lu", sum);
 		fib1 = fib2;
