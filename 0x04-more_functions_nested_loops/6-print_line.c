@@ -1,20 +1,18 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_line - print n underscore characters
- * @n: number of times to print _
+ * print_line - prints a straight line
+ *
+ * @n: parameter
+ * Returns: returns nothing
  */
+
 void print_line(int n)
 {
-	int i;
-
-	if (n > 0)
+	while (n-- > 0)
 	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar('_');
-		}
+		putchar('_');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
-
