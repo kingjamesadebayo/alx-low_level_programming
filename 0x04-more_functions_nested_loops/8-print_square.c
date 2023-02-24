@@ -2,8 +2,10 @@
 #include "main.h"
 
 /**
- * print_square - function that prints 10 times the numbers, from 0 to 14
+ * print_square - function that prints 10 times the numbers
+ * from 0 to 14
  * @size: parameter
+ *
  * Return: returns nothing
  */
 
@@ -33,4 +35,3 @@ void print_square(int size)
 		}
 	}
 }
-
