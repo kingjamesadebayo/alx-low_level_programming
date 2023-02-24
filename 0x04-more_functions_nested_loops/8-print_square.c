@@ -1,9 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * print_square - print square
  * @size: size of square in row/col units
  */
+
 void print_square(int size)
 {
 	int i;
