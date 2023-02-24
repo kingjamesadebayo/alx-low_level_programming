@@ -3,8 +3,8 @@
 /**
  * print_diagonal - print diagonal line
  * @n: line segments to print
+ * Return: 0 on Success
  */
-
 void print_diagonal(int n)
 {
 	int i;

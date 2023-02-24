@@ -3,8 +3,8 @@
 /**
  * print_line - print n underscore characters
  * @n: number of times to print _
+ * Return: 0 on Success
  */
-
 void print_line(int n)
 {
 	int i;
