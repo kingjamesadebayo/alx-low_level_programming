@@ -7,7 +7,6 @@
  *
  * Return: returns nothing
  */
-
 void print_numbers(void)
 {
 	int x;
@@ -18,4 +17,3 @@ void print_numbers(void)
 	}
 	putchar(10);
 }
-
