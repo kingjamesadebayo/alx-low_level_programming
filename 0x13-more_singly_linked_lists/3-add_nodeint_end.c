@@ -3,7 +3,7 @@
 
 /**
  * add_nodeint_end - add a new node at the end of the list
- * @head: pointer to the first element in the list
+ * @head: pointer to the first element listint_t n the list
  * @n: data to insert in the new element
  *
  * Return: the address of the new element or NULL if it fails
