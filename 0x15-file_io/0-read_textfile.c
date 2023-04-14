@@ -18,9 +18,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	jam = open(filename, O_RDONLY);
 	if (jam == -1)
 		return (0);
-	jam = malloc(sizeof (char) *letters);
+	buf = malloc(sizeof(char) * letters);
 	y = read(jam, buf, letters);
-	x = write(STDOUT_FILENO, buf, t);
+	x = write(STDOUT_FILENO, buf, y);
 
 	free(buf);
 	close(jam);
